@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <section id="navigation">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="font-weight: bolder; font-family: Arial, Helvetica, sans-serif;" href="#">Food
+          Blog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav"
+          style="font-family:Arial, Helvetica, sans-serif;">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-center ms-4 font-weight-bold" aria-current="page" href="#homepage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-center ms-4 font-weight-bold" href="#blog">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-center ms-4 font-weight-bold" href="#About">About Us</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+  </section>
+
+  <!-- home -->
+
+  <section id="homepage" style="height: 70%;">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./assets/food.jpg" class="profile-img d-block mx-lg-auto img-fluid pt5" alt="Bootstrap Themes"
+            width="700" height="500" loading="lazy" style="background-color: 50%;">
+        </div>
+        <div class="col-lg-6 pt-5">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Food is symbolic of love when words are
+            inadequate
+          </h1>
+          <p class="lead">Explore the world of flavors through our culinary adventures. From exotic spices to
+            comforting classics, we're here to tantalize your taste buds and inspire your kitchen
+            creations.Food is more than just taste—it's a multisensory experience. From vibrant colors to
+            enticing aromas, we'll take you on a journey that engages all your senses.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- blog section -->
+
+  <section id="blog" style=" height: auto;">
+    <div class="container px-4 pt-5" id="custom-cards">
+      <h2 class="pb-2 display-5 fw-bold text-body-emphasis lh-1 mb-3 pt-5">Food Blogs</h2>
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 pt-5">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('./assets/food1.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Biryani is not just food, it's an emotion</h3>
+              <ul class="d-flex list-unstyled mt-auto justify-content-end">
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>Meghana's biryani</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small>3d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('./assets/food2.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Pizza is like the universe on a plate</h3>
+              <ul class="d-flex list-unstyled mt-auto justify-content-end">
+
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>Pizza Hut</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small>4d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('./assets/food3.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Burgers are the ultimate comfort food</h3>
+              <ul class="d-flex list-unstyled mt-auto justify-content-end">
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#geo-fill"></use>
+                  </svg>
+                  <small>Burger King</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3"></use>
+                  </svg>
+                  <small>5d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- about-->
+  <section id="About">
+    <div class="container pt-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5 pt-5">
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About Us</h1>
+          <p class="lead">As a food blogger, my content revolves around sharing mouthwatering recipes, helpful cooking
+            tutorials, and insightful ingredient spotlights. I also offer candid restaurant reviews and tips for
+            capturing enticing food photography. By exploring diverse cuisines and offering healthy eating advice, I aim
+            to inspire my audience to experiment in the kitchen and develop a deeper appreciation for food.</p>
+        </div>
+        <div class="col-10 col-sm-8 col-lg-6 pt-5">
+          <img src="./assets/about.jpg" class="about-img d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+            width="700" height="500" loading="lazy">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- footer-->
+
+  <section id="footer">
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center   mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Blogs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        </ul>
+        <ul class="nav justify-content-center  pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Phone NUmber: 8977654321</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Email: abcd@gmail.com</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">facebook: @foodblogger</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Instagram: @foodblogger</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+      </footer>
+    </div>
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
